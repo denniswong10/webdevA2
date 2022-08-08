@@ -1,0 +1,6 @@
+/* Local */
+.page_layout img { cursor: pointer; }
+
+.image_interface { width: 50%; height: 50%; }
+.flipDownCard { display: none; }
+.flipBackCard { cursor: pointer; text-decoration: underline; }

@@ -1,0 +1,22 @@
+/* Local */ 
+.profile_header { padding-left: 0px; }
+.profile_header h1 { font-size: 50px;}
+
+.profile_main { margin-top: 50px;}
+
+.varitey_container {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.varitey_container div {
+    width: 10%;
+    height: 50px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+}

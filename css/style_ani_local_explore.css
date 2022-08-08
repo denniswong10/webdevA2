@@ -1,0 +1,35 @@
+/* Local Animation */
+.image_interface img { animation: move-object 10s infinite ease-in-out; }
+.afterEffect { animation: floating-transition 5s infinite ease-in-out; }
+.unflipped { animation: flipBackTheCard-transition 2s forwards ease-in; }
+.flipped { animation: flipTheCard-transition 2s forwards ease-in; }
+.flipUpCard { display: block; animation: revealTheCard-transition 3s forwards ease-in; }
+
+/* Animation Frame */
+@keyframes move-object {
+    0% { transform: translateX(-100%); }
+    50% { transform: translateX(0%); }
+    75% { transform: translateX(200%); }
+    100% { transform: translateX(-100%); }
+} 
+
+@keyframes floating-transition {
+    0% { transform: translateY(0%); }
+    50% { transform: translateY(5%); }
+    100% { transform: translateY(0%); }
+}
+
+@keyframes flipTheCard-transition {
+    from { transform: rotateY(90deg); opacity: 1;}
+    to { transform: rotateY(180deg); opacity: 0; }
+}
+
+@keyframes revealTheCard-transition {
+    from { transform: scale(1%, 1%); }
+    to { transform: scale(100%, 100%); }
+}
+
+@keyframes flipBackTheCard-transition {
+    from { transform: scale(100%, 100%); }
+    to { transform: scale(1%, 1%); }
+}

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>World of Plants (Explore)</title>
+      <link rel="stylesheet" href="css/style.css"> <!-- Global: CSS Layout -->
+      <link rel="stylesheet" href="css/style_animation.css"> <!-- Global: CSS Animation -->
+      <link rel="stylesheet" href="css/style_local_explore.css"> <!-- Local: CSS Layout -->
+      <link rel="stylesheet" href="css/style_ani_local_explore.css"> <!-- Local: CSS Animation -->
+      <script src="js/content.js" defer></script> <!-- Global: Written Javascript -->
+      <script src="js/exploreInteractive.js" defer></script> <!-- Local: Written Javascript -->
+  </head>
+  <body>
+    <!-- Top Section -->
+    <div class="top">
+      <!-- Title of the Page -->
+      <header>World Of Plants</header>
+      <!-- Menu Option -->
+      <div class="nagivation_menu" id="navMenu">
+        <a href="index.html"><img src="images/home-icon.png" alt="home">Home</a>
+        <a href="profile.html"><img src="images/varitey-icon.png" alt="varitey">Variety</a>
+        <a href="explore.html" class="active"><img src="images/explore-icon.png" alt="explore">Explore</a>
+        <a href="javascript:void(0);" class="icon" id="iconMenu"><img src="images/menu-button.png"></a>
+      </div>
+    </div>
+
+    <!-- Body Section -->
+    <div class="middle">
+      <!-- Page Header -->
+      <div class="page_heading">
+        <h2>Plants Discovery Interaction</h2>
+      </div>
+      <!-- Page Body -->
+      <div class="page_info">
+        <!-- Animated Moving Plant: Loop -->
+        <div class="image_interface">
+          <img src="images/plants/shrub1.png" alt="shrub1">
+        </div>
+        <!-- Page Article (1st Image Interaction) : After Effect -->
+        <div class="page_layout afterEffect">
+          <article>
+            <h3 id="returnBtn">Click on the images to flip the content</h3>
+            <p>
+              <img src="images/plants/plant1.png" id="flipCard">
+              <div id="flipCard-content" class="flipDownCard">
+                <h3>Hibiscus schizopetalus</h3>
+                <p>
+                  The fringed recurving coral-red petals are unique to this Hibiscus species. 
+                  The bright tropical flowers hang like Japanese lanterns from the vigorous branches 
+                  throughout much of the year. An easily grown, free-flowering tropical, and a definite 
+                  conversation piece. The flowers attract a variety of pollinators including Hummingbirds, 
+                  bees, and butterflies. Still one of our favorites!
+                </p>
+              </div>
+            </p>
+          </article>
+        </div>
+        <!-- Page Article (2nd Image Interaction) : After Effect -->
+        <div class="page_layout afterEffect">
+          <article>
+            <h3 id="returnBtn">Click on the images to flip the content</h3>
+            <p>
+              <img src="images/plants/plant2.png" id="flipCard">
+              <div id="flipCard-content" class="flipDownCard">
+                <h3>Camellia japonica</h3>
+                <p>
+                  The Japanese camellia is an evergreen woody tree or shrub in the Theaceae or tea family. 
+                  Native to China, Korea and parts of Japan, it has become a southern gardening favorite. 
+                  The word camellia is derived from Georg Josef Kamel (1706), 
+                  a Jesuit missionary and naturalist who introduced Philippine flora to Europe. 
+                  The Latin name for Kamel is Camellus.
+                </p>
+              </div>
+            </p>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Section -->
+    <div class="bottom">
+      <div class="content_footer">
+        <ul>
+          <li>Build by WHITE PLUSH STUDIO</li>
+          <li>Serve to do Web-Responsive Site and Interaction.</li>
+          <li>Scan the QR code for mobile version of site.</li>
+        </ul>
+        <img src="images/QR Scanner.png" alt="QR_Scanner">
+        <span><img src="images/logo-icon.png" alt="logo"></span>
+      </div>
+    </div>
+  </body>
+</html>
