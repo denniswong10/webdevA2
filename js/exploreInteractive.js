@@ -1,6 +1,7 @@
 // Flip cards
 /* 
-    Manage of flip-up and down cards that been clicked and convert them
+    Manage of flip-up and down cards that 
+    been clicked and convert them
     to text content
 */
 

@@ -2,8 +2,11 @@
 .profile_header { padding-left: 0px; }
 .profile_header h1 { font-size: 50px;}
 
-.profile_main { margin-top: 50px;}
+.profile_main { margin-top: 50px; }
+.profile_main article { display: grid; grid-template-columns: 80% 20%; }
+.profile_main p { grid-column-start: 1; }
 
+.variety_layout_contatiner { grid-column-start: 1; grid-row: 3/3;}
 .varitey_container {
     display: flex;
     flex-direction: row;
@@ -19,4 +22,17 @@
     border: 2px solid black;
     border-radius: 20px;
     text-align: center;
+    font-size: 30px;
+    cursor: pointer;
 }
+
+.variety_preview { grid-column-start: 2; }
+.variety_preview img {
+    width: 70%;
+    height: 70%;
+}
+
+/* Extra */
+.notActive { display: none; }
+.active { display: block; }
+.selectedBtn { transform: translateY(-15px); }

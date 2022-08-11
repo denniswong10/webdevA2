@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World of Plants (Type of Plants)</title>
     <link rel="stylesheet" href="css/style.css"> <!-- Global: CSS Layout -->
     <link rel="stylesheet" href="css/style_animation.css"> <!-- Global: CSS Animation -->
     <link rel="stylesheet" href="css/style_local_profile.css"> <!-- Local: CSS Layout -->
     <script src="js/content.js" defer></script> <!-- Global: Written Javascript -->
+    <script src="js/profileInteractive.js" defer></script> <!-- Local: Written Javascript -->
   </head>
   <body>
     <!-- Top Section -->
@@ -18,7 +20,7 @@
         <a href="index.html"><img src="images/home-icon.png" alt="home">Home</a>
         <a href="profile.html" class="active"><img src="images/varitey-icon.png" alt="varitey">Variety</a>
         <a href="explore.html"><img src="images/explore-icon.png" alt="explore">Explore</a>
-        <a href="javascript:void(0);" class="icon" id="iconMenu"><img src="images/menu-button.png"></a>
+        <a href="javascript:void(0);" class="icon" id="iconMenu"><img src="images/menu-button.png" alt="hamburger"></a>
       </div>
     </div>
 
@@ -82,14 +84,21 @@
               4,225 species of herbaceous plants, 
               shrubs, and trees distributed nearly worldwide.
             </p>
-            <p>
+            <!-- Variety Section (Body) -->
+            <div class="variety_layout_contatiner">
               <b>Variety: </b><br/>
               <div class="varitey_container">
                   <div>1</div>
                   <div>2</div>
                   <div>3</div>
               </div>
-            </p>
+            </div>
+            <!-- Varitey Section (Side Panel) -->
+            <div class="variety_preview">
+              <img src="images/plants/varietyB1-1.jpg" alt="preview_varietyB" class="notActive">
+              <img src="images/plants/varietyB1-2.jpg" alt="preview_varietyB" class="notActive">
+              <img src="images/plants/varietyB1-3.jpg" alt="preview_varietyB" class="notActive">
+            </div> 
           </article>
         </div>
 
@@ -102,12 +111,19 @@
               containing about 56 genera and about 1,300 species. These aromatic herbs grow in moist 
               areas of the tropics and subtropics, including some regions that are seasonably dry.
             </p>
-            <p>
+            <!-- Variety Section (Body) -->
+            <div class="variety_layout_contatiner">
               <b>Variety: </b><br/>
               <div class="varitey_container">
                   <div>1</div>
+                  <div>2</div>
               </div>
-            </p>
+            </div>
+            <!-- Varitey Section (Side Panel) -->
+            <div class="variety_preview">
+              <img src="images/plants/varietyB2-1.jpg" alt="preview_varietyB" class="notActive">
+              <img src="images/plants/varietyB2-2.jpg" alt="preview_varietyB" class="notActive">
+            </div> 
           </article>
         </div>
 
@@ -120,12 +136,17 @@
               consisting of 23 genera and 637 species of short-stemmed, often woody plants distributed 
               throughout tropical, subtropical, and temperate areas of the world.
             </p>
-            <p>
+            <!-- Variety Section (Body) -->
+            <div class="variety_layout_contatiner">
               <b>Variety: </b><br/>
               <div class="varitey_container">
                   <div>1</div>
               </div>
-            </p>
+            </div>
+            <!-- Varitey Section (Side Panel) -->
+            <div class="variety_preview">
+              <img src="images/plants/varietyB3-1.jpg" alt="preview_varietyB" class="notActive">
+            </div> 
           </article>
         </div>
 
@@ -179,7 +200,7 @@
           <li>Serve to do Web-Responsive Site and Interaction.</li>
           <li>Scan the QR code for mobile version of site.</li>
         </ul>
-        <img src="images/QR Scanner.png" alt="QR_Scanner">
+        <img src="images/QR-Scanner.png" alt="QR_Scanner">
         <span><img src="images/logo-icon.png" alt="logo"></span>
       </div>
     </div>
